@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="ГеоСлед — спокойная игра-тренажёр: найдите страну на карте и назовите её столицу."
+    />
+    <meta name="theme-color" content="#f7f1e4" />
+    <title>ГеоСлед — страны и столицы</title>
+    <link rel="stylesheet" href="./vendor/leaflet/leaflet.css" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#country-name">К заданию</a>
+
+    <div class="site-shell">
+      <header class="app-header">
+        <a class="brand" href="./" aria-label="ГеоСлед — на главную">
+          <svg
+            class="brand-mark"
+            viewBox="0 0 64 64"
+            aria-hidden="true"
+            focusable="false"
+          >
+            <circle cx="32" cy="32" r="25" />
+            <path d="M32 2v60M2 32h60M11 11l42 42M53 11 11 53" />
+            <path class="brand-mark__needle" d="m32 10 6 16 16 6-16 6-6 16-6-16-16-6 16-6Z" />
+            <circle cx="32" cy="32" r="3" />
+          </svg>
+          <span>ГеоСлед</span>
+        </a>
+
+        <div class="game-stats" aria-label="Статистика игры">
+          <div class="stat">
+            <span class="stat__label">Счёт</span>
+            <strong id="score-value">0</strong>
+          </div>
+          <span class="stat-divider" aria-hidden="true"></span>
+          <div class="stat">
+            <span class="stat__label">Серия</span>
+            <strong id="streak-value">0</strong>
+          </div>
+          <span class="stat-divider stat-divider--round" aria-hidden="true"></span>
+          <div class="round-stat">
+            <span id="round-value">Раунд 1 из 10</span>
+            <div
+              class="progress-track"
+              role="progressbar"
+              aria-label="Прогресс игры"
+              aria-valuemin="1"
+              aria-valuemax="10"
+              aria-valuenow="1"
+            >
+              <span id="progress-fill"></span>
+            </div>
+          </div>
+        </div>
+
+        <button class="new-game-button" id="new-game-button" type="button" disabled>
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path d="M20 7v5h-5M19.1 15a8 8 0 1 1-.6-7.8L20 9" />
+          </svg>
+          <span>Новая игра</span>
+        </button>
+      </header>
+
+      <div class="mobile-round" aria-label="Прогресс текущей игры">
+        <span id="mobile-round-value">Раунд 1 из 10</span>
+        <span class="mobile-stats" id="mobile-stats">Счёт 0 · Серия 0</span>
+        <span
+          class="visually-hidden"
+          id="mobile-progress"
+          role="progressbar"
+          aria-label="Прогресс игры"
+          aria-valuemin="1"
+          aria-valuemax="10"
+          aria-valuenow="1"
+        >1 из 10</span>
+      </div>
+
+      <nav class="region-bar" aria-label="Выберите регион мира">
+        <div class="region-scroll" role="group" aria-label="Регион игры">
+          <button class="region-tab" type="button" aria-pressed="false" data-region="all" disabled>
+            Весь мир
+          </button>
+          <button class="region-tab is-active" type="button" aria-pressed="true" data-region="europe" disabled>
+            Европа
+          </button>
+          <button class="region-tab" type="button" aria-pressed="false" data-region="asia" disabled>
+            Азия
+          </button>
+          <button class="region-tab" type="button" aria-pressed="false" data-region="africa" disabled>
+            Африка
+          </button>
+          <button class="region-tab" type="button" aria-pressed="false" data-region="north-america" disabled>
+            Северная Америка
+          </button>
+          <button class="region-tab" type="button" aria-pressed="false" data-region="south-america" disabled>
+            Южная Америка
+          </button>
+          <button class="region-tab" type="button" aria-pressed="false" data-region="oceania" disabled>
+            Океания
+          </button>
+        </div>
+      </nav>
+
+      <main class="game-layout" id="game" aria-busy="true">
+        <section class="challenge-panel" aria-labelledby="country-name">
+          <div class="challenge-copy">
+            <p class="challenge-prompt">Найдите на карте</p>
+            <h1 id="country-name">Загрузка…</h1>
+            <p class="challenge-instruction">
+              Нажмите на страну, затем назовите её столицу.
+            </p>
+          </div>
+
+          <form id="answer-form" class="answer-form" novalidate>
+            <label for="capital-input">Столица</label>
+            <input
+              id="capital-input"
+              name="capital"
+              type="text"
+              inputmode="text"
+              autocomplete="off"
+              autocapitalize="words"
+              spellcheck="false"
+              placeholder="Введите столицу"
+              aria-describedby="capital-help answer-feedback"
+              aria-invalid="false"
+              required
+              disabled
+            />
+            <span class="visually-hidden" id="capital-help">
+              Введите столицу загаданной страны. Регистр букв не важен.
+            </span>
+
+            <details class="country-fallback" id="country-fallback">
+              <summary>Выбрать страну из списка</summary>
+              <div class="country-fallback__control">
+                <label for="country-select">Страна на карте</label>
+                <select id="country-select" disabled>
+                  <option value="">Страна не выбрана</option>
+                </select>
+              </div>
+            </details>
+
+            <div
+              id="answer-feedback"
+              class="answer-feedback"
+              role="status"
+              aria-live="polite"
+              aria-atomic="true"
+              tabindex="-1"
+            ></div>
+
+            <div class="form-actions">
+              <button class="primary-button" id="check-button" type="submit" disabled>
+                Проверить ответ
+              </button>
+              <button class="secondary-button" id="skip-button" type="button" disabled>
+                Пропустить
+              </button>
+            </div>
+          </form>
+
+          <p class="keyboard-note">
+            Совет: масштабируйте кнопками или колёсиком. На телефоне карту можно сдвигать по горизонтали.
+          </p>
+        </section>
+
+        <section class="map-panel" aria-labelledby="map-heading">
+          <h2 class="visually-hidden" id="map-heading">Интерактивная карта мира</h2>
+          <div class="map-frame">
+            <div
+              id="map"
+              aria-label="Карта мира без подписей. Выберите страну."
+            ></div>
+
+            <div class="map-loading" id="map-loading" role="status">
+              <span class="loading-compass" aria-hidden="true"></span>
+              <span>Готовим карту…</span>
+            </div>
+
+            <div class="map-legend" aria-label="Обозначения карты">
+              <span><i class="legend-swatch legend-swatch--selected"></i>Выбрано</span>
+              <span><i class="legend-swatch legend-swatch--correct"></i>Правильный ответ</span>
+            </div>
+          </div>
+
+          <p class="map-selection-status" id="map-selection-status" role="status" aria-live="polite">
+            Страна на карте пока не выбрана.
+          </p>
+
+          <p class="map-caption">
+            Карта без подписей · границы служат только для учебной игры
+          </p>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <span>ГеоСлед работает прямо в браузере и не отправляет ваши ответы.</span>
+        <span>
+          Карта:
+          <a href="https://www.naturalearthdata.com/" target="_blank" rel="noreferrer">Natural Earth</a>
+          ·
+          <a href="https://github.com/topojson/world-atlas" target="_blank" rel="noreferrer">world-atlas</a>
+        </span>
+      </footer>
+    </div>
+
+    <dialog class="results-dialog" id="results-dialog" aria-labelledby="results-title">
+      <div class="results-dialog__inner">
+        <button class="dialog-close" id="dialog-close" type="button" aria-label="Закрыть результаты">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path d="m6 6 12 12M18 6 6 18" />
+          </svg>
+        </button>
+        <p class="results-overline">Игра завершена</p>
+        <h2 id="results-title">Маршрут пройден</h2>
+        <p class="results-lead" id="results-lead">Ваш результат готов.</p>
+
+        <div class="results-grid" aria-label="Результаты игры">
+          <div><strong id="result-score">0/20</strong><span>очков</span></div>
+          <div><strong id="result-map">0%</strong><span>страны</span></div>
+          <div><strong id="result-capitals">0%</strong><span>столицы</span></div>
+          <div><strong id="result-streak">0</strong><span>лучшая серия</span></div>
+        </div>
+
+        <div class="mistakes" id="mistakes-section" hidden>
+          <h3>Стоит повторить</h3>
+          <ul id="mistakes-list"></ul>
+        </div>
+
+        <div class="dialog-actions">
+          <button class="primary-button" id="play-again-button" type="button">Сыграть ещё</button>
+          <button class="secondary-button" id="choose-region-button" type="button">Другой регион</button>
+        </div>
+      </div>
+    </dialog>
+
+    <noscript>
+      <div class="noscript-message">
+        Для игры нужен JavaScript. Включите его в настройках браузера и обновите страницу.
+      </div>
+    </noscript>
+
+    <script src="./vendor/leaflet/leaflet.js"></script>
+    <script src="./vendor/topojson/topojson-client.min.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>

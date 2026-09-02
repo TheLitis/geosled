@@ -1,0 +1,4304 @@
+{
+  "datasetVersion": "2026-09-02",
+  "sources": {
+    "countries": "world-countries@5.1.0",
+    "labels": "Wikidata SPARQL: ISO 3166-1 alpha-3 + capital labels (ru,en)"
+  },
+  "countries": [
+    {
+      "iso2": "AU",
+      "iso3": "AUS",
+      "numeric": "036",
+      "name": {
+        "ru": "Австралия",
+        "en": "Australia"
+      },
+      "regionIds": [
+        "oceania"
+      ],
+      "capital": {
+        "displayRu": "Канберра",
+        "accepted": [
+          "Канберра",
+          "Canberra"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "AT",
+      "iso3": "AUT",
+      "numeric": "040",
+      "name": {
+        "ru": "Австрия",
+        "en": "Austria"
+      },
+      "regionIds": [
+        "europe"
+      ],
+      "capital": {
+        "displayRu": "Вена",
+        "accepted": [
+          "Вена",
+          "Vienna"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "AZ",
+      "iso3": "AZE",
+      "numeric": "031",
+      "name": {
+        "ru": "Азербайджан",
+        "en": "Azerbaijan"
+      },
+      "regionIds": [
+        "europe",
+        "asia"
+      ],
+      "capital": {
+        "displayRu": "Баку",
+        "accepted": [
+          "Баку",
+          "Baku"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "AL",
+      "iso3": "ALB",
+      "numeric": "008",
+      "name": {
+        "ru": "Албания",
+        "en": "Albania"
+      },
+      "regionIds": [
+        "europe"
+      ],
+      "capital": {
+        "displayRu": "Тирана",
+        "accepted": [
+          "Тирана",
+          "Tirana"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "DZ",
+      "iso3": "DZA",
+      "numeric": "012",
+      "name": {
+        "ru": "Алжир",
+        "en": "Algeria"
+      },
+      "regionIds": [
+        "africa"
+      ],
+      "capital": {
+        "displayRu": "Алжир",
+        "accepted": [
+          "Алжир",
+          "Algiers"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "AO",
+      "iso3": "AGO",
+      "numeric": "024",
+      "name": {
+        "ru": "Ангола",
+        "en": "Angola"
+      },
+      "regionIds": [
+        "africa"
+      ],
+      "capital": {
+        "displayRu": "Луанда",
+        "accepted": [
+          "Луанда",
+          "Luanda"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "AD",
+      "iso3": "AND",
+      "numeric": "020",
+      "name": {
+        "ru": "Андорра",
+        "en": "Andorra"
+      },
+      "regionIds": [
+        "europe"
+      ],
+      "capital": {
+        "displayRu": "Андорра-ла-Велья",
+        "accepted": [
+          "Андорра-ла-Велья",
+          "Andorra la Vella"
+        ]
+      },
+      "hitPoint": [
+        42.5,
+        1.5
+      ],
+      "hitRadiusPx": 10,
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "AG",
+      "iso3": "ATG",
+      "numeric": "028",
+      "name": {
+        "ru": "Антигуа и Барбуда",
+        "en": "Antigua and Barbuda"
+      },
+      "regionIds": [
+        "north-america"
+      ],
+      "capital": {
+        "displayRu": "Сент-Джонс",
+        "accepted": [
+          "Сент-Джонс",
+          "Saint John's"
+        ]
+      },
+      "hitPoint": [
+        17.05,
+        -61.8
+      ],
+      "hitRadiusPx": 10,
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "AR",
+      "iso3": "ARG",
+      "numeric": "032",
+      "name": {
+        "ru": "Аргентина",
+        "en": "Argentina"
+      },
+      "regionIds": [
+        "south-america"
+      ],
+      "capital": {
+        "displayRu": "Буэнос-Айрес",
+        "accepted": [
+          "Буэнос-Айрес",
+          "Buenos Aires"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "AM",
+      "iso3": "ARM",
+      "numeric": "051",
+      "name": {
+        "ru": "Армения",
+        "en": "Armenia"
+      },
+      "regionIds": [
+        "europe",
+        "asia"
+      ],
+      "capital": {
+        "displayRu": "Ереван",
+        "accepted": [
+          "Ереван",
+          "Yerevan"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "AF",
+      "iso3": "AFG",
+      "numeric": "004",
+      "name": {
+        "ru": "Афганистан",
+        "en": "Afghanistan"
+      },
+      "regionIds": [
+        "asia"
+      ],
+      "capital": {
+        "displayRu": "Кабул",
+        "accepted": [
+          "Кабул",
+          "Kabul"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "BS",
+      "iso3": "BHS",
+      "numeric": "044",
+      "name": {
+        "ru": "Багамские Острова",
+        "en": "Bahamas"
+      },
+      "regionIds": [
+        "north-america"
+      ],
+      "capital": {
+        "displayRu": "Нассау",
+        "accepted": [
+          "Нассау",
+          "Nassau"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "BD",
+      "iso3": "BGD",
+      "numeric": "050",
+      "name": {
+        "ru": "Бангладеш",
+        "en": "Bangladesh"
+      },
+      "regionIds": [
+        "asia"
+      ],
+      "capital": {
+        "displayRu": "Дакка",
+        "accepted": [
+          "Дакка",
+          "Dhaka"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "BB",
+      "iso3": "BRB",
+      "numeric": "052",
+      "name": {
+        "ru": "Барбадос",
+        "en": "Barbados"
+      },
+      "regionIds": [
+        "north-america"
+      ],
+      "capital": {
+        "displayRu": "Бриджтаун",
+        "accepted": [
+          "Бриджтаун",
+          "Bridgetown"
+        ]
+      },
+      "hitPoint": [
+        13.16666666,
+        -59.53333333
+      ],
+      "hitRadiusPx": 10,
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "BH",
+      "iso3": "BHR",
+      "numeric": "048",
+      "name": {
+        "ru": "Бахрейн",
+        "en": "Bahrain"
+      },
+      "regionIds": [
+        "asia"
+      ],
+      "capital": {
+        "displayRu": "Манама",
+        "accepted": [
+          "Манама",
+          "Manama"
+        ]
+      },
+      "hitPoint": [
+        26,
+        50.55
+      ],
+      "hitRadiusPx": 10,
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "BY",
+      "iso3": "BLR",
+      "numeric": "112",
+      "name": {
+        "ru": "Беларусь",
+        "en": "Belarus"
+      },
+      "regionIds": [
+        "europe"
+      ],
+      "capital": {
+        "displayRu": "Минск",
+        "accepted": [
+          "Минск",
+          "Minsk"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "BZ",
+      "iso3": "BLZ",
+      "numeric": "084",
+      "name": {
+        "ru": "Белиз",
+        "en": "Belize"
+      },
+      "regionIds": [
+        "north-america"
+      ],
+      "capital": {
+        "displayRu": "Бельмопан",
+        "accepted": [
+          "Бельмопан",
+          "Belmopan"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "BE",
+      "iso3": "BEL",
+      "numeric": "056",
+      "name": {
+        "ru": "Бельгия",
+        "en": "Belgium"
+      },
+      "regionIds": [
+        "europe"
+      ],
+      "capital": {
+        "displayRu": "Брюссель",
+        "accepted": [
+          "Брюссель",
+          "Brussels"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "BJ",
+      "iso3": "BEN",
+      "numeric": "204",
+      "name": {
+        "ru": "Бенин",
+        "en": "Benin"
+      },
+      "regionIds": [
+        "africa"
+      ],
+      "capital": {
+        "displayRu": "Порто-Ново",
+        "accepted": [
+          "Порто-Ново",
+          "Porto-Novo"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "BG",
+      "iso3": "BGR",
+      "numeric": "100",
+      "name": {
+        "ru": "Болгария",
+        "en": "Bulgaria"
+      },
+      "regionIds": [
+        "europe"
+      ],
+      "capital": {
+        "displayRu": "София",
+        "accepted": [
+          "София",
+          "Sofia"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "BO",
+      "iso3": "BOL",
+      "numeric": "068",
+      "name": {
+        "ru": "Боливия",
+        "en": "Bolivia"
+      },
+      "regionIds": [
+        "south-america"
+      ],
+      "capital": {
+        "displayRu": "Сукре",
+        "accepted": [
+          "Сукре",
+          "Sucre",
+          "Ла-Пас",
+          "La Paz"
+        ],
+        "note": "Сукре — конституционная столица; правительство работает в Ла-Пасе."
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "BA",
+      "iso3": "BIH",
+      "numeric": "070",
+      "name": {
+        "ru": "Босния и Герцеговина",
+        "en": "Bosnia and Herzegovina"
+      },
+      "regionIds": [
+        "europe"
+      ],
+      "capital": {
+        "displayRu": "Сараево",
+        "accepted": [
+          "Сараево",
+          "Sarajevo"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "BW",
+      "iso3": "BWA",
+      "numeric": "072",
+      "name": {
+        "ru": "Ботсвана",
+        "en": "Botswana"
+      },
+      "regionIds": [
+        "africa"
+      ],
+      "capital": {
+        "displayRu": "Габороне",
+        "accepted": [
+          "Габороне",
+          "Gaborone"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "BR",
+      "iso3": "BRA",
+      "numeric": "076",
+      "name": {
+        "ru": "Бразилия",
+        "en": "Brazil"
+      },
+      "regionIds": [
+        "south-america"
+      ],
+      "capital": {
+        "displayRu": "Бразилиа",
+        "accepted": [
+          "Бразилиа",
+          "Brasília"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "BN",
+      "iso3": "BRN",
+      "numeric": "096",
+      "name": {
+        "ru": "Бруней",
+        "en": "Brunei"
+      },
+      "regionIds": [
+        "asia"
+      ],
+      "capital": {
+        "displayRu": "Бандар-Сери-Бегаван",
+        "accepted": [
+          "Бандар-Сери-Бегаван",
+          "Bandar Seri Begawan"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "BF",
+      "iso3": "BFA",
+      "numeric": "854",
+      "name": {
+        "ru": "Буркина-Фасо",
+        "en": "Burkina Faso"
+      },
+      "regionIds": [
+        "africa"
+      ],
+      "capital": {
+        "displayRu": "Уагадугу",
+        "accepted": [
+          "Уагадугу",
+          "Ouagadougou"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "BI",
+      "iso3": "BDI",
+      "numeric": "108",
+      "name": {
+        "ru": "Бурунди",
+        "en": "Burundi"
+      },
+      "regionIds": [
+        "africa"
+      ],
+      "capital": {
+        "displayRu": "Гитега",
+        "accepted": [
+          "Гитега",
+          "Gitega"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "BT",
+      "iso3": "BTN",
+      "numeric": "064",
+      "name": {
+        "ru": "Бутан",
+        "en": "Bhutan"
+      },
+      "regionIds": [
+        "asia"
+      ],
+      "capital": {
+        "displayRu": "Тхимпху",
+        "accepted": [
+          "Тхимпху",
+          "Thimphu"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "VU",
+      "iso3": "VUT",
+      "numeric": "548",
+      "name": {
+        "ru": "Вануату",
+        "en": "Vanuatu"
+      },
+      "regionIds": [
+        "oceania"
+      ],
+      "capital": {
+        "displayRu": "Порт-Вила",
+        "accepted": [
+          "Порт-Вила",
+          "Port Vila"
+        ]
+      },
+      "hitPoint": [
+        -16,
+        167
+      ],
+      "hitRadiusPx": 10,
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "VA",
+      "iso3": "VAT",
+      "numeric": "336",
+      "name": {
+        "ru": "Ватикан",
+        "en": "Vatican City"
+      },
+      "regionIds": [
+        "europe"
+      ],
+      "capital": {
+        "displayRu": "Ватикан",
+        "accepted": [
+          "Ватикан",
+          "Vatican City",
+          "Vatican"
+        ]
+      },
+      "hitPoint": [
+        41.9,
+        12.45
+      ],
+      "hitRadiusPx": 10,
+      "quizEligible": true,
+      "status": "observer"
+    },
+    {
+      "iso2": "GB",
+      "iso3": "GBR",
+      "numeric": "826",
+      "name": {
+        "ru": "Великобритания",
+        "en": "United Kingdom"
+      },
+      "regionIds": [
+        "europe"
+      ],
+      "capital": {
+        "displayRu": "Лондон",
+        "accepted": [
+          "Лондон",
+          "London"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "HU",
+      "iso3": "HUN",
+      "numeric": "348",
+      "name": {
+        "ru": "Венгрия",
+        "en": "Hungary"
+      },
+      "regionIds": [
+        "europe"
+      ],
+      "capital": {
+        "displayRu": "Будапешт",
+        "accepted": [
+          "Будапешт",
+          "Budapest"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "VE",
+      "iso3": "VEN",
+      "numeric": "862",
+      "name": {
+        "ru": "Венесуэла",
+        "en": "Venezuela"
+      },
+      "regionIds": [
+        "south-america"
+      ],
+      "capital": {
+        "displayRu": "Каракас",
+        "accepted": [
+          "Каракас",
+          "Caracas"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "TL",
+      "iso3": "TLS",
+      "numeric": "626",
+      "name": {
+        "ru": "Восточный Тимор",
+        "en": "Timor-Leste"
+      },
+      "regionIds": [
+        "asia",
+        "oceania"
+      ],
+      "capital": {
+        "displayRu": "Дили",
+        "accepted": [
+          "Дили",
+          "Dili"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "VN",
+      "iso3": "VNM",
+      "numeric": "704",
+      "name": {
+        "ru": "Вьетнам",
+        "en": "Vietnam"
+      },
+      "regionIds": [
+        "asia"
+      ],
+      "capital": {
+        "displayRu": "Ханой",
+        "accepted": [
+          "Ханой",
+          "Hanoi"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "GA",
+      "iso3": "GAB",
+      "numeric": "266",
+      "name": {
+        "ru": "Габон",
+        "en": "Gabon"
+      },
+      "regionIds": [
+        "africa"
+      ],
+      "capital": {
+        "displayRu": "Либревиль",
+        "accepted": [
+          "Либревиль",
+          "Libreville"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "HT",
+      "iso3": "HTI",
+      "numeric": "332",
+      "name": {
+        "ru": "Гаити",
+        "en": "Haiti"
+      },
+      "regionIds": [
+        "north-america"
+      ],
+      "capital": {
+        "displayRu": "Порт-о-Пренс",
+        "accepted": [
+          "Порт-о-Пренс",
+          "Port-au-Prince"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "GY",
+      "iso3": "GUY",
+      "numeric": "328",
+      "name": {
+        "ru": "Гайана",
+        "en": "Guyana"
+      },
+      "regionIds": [
+        "south-america"
+      ],
+      "capital": {
+        "displayRu": "Джорджтаун",
+        "accepted": [
+          "Джорджтаун",
+          "Georgetown"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "GM",
+      "iso3": "GMB",
+      "numeric": "270",
+      "name": {
+        "ru": "Гамбия",
+        "en": "Gambia"
+      },
+      "regionIds": [
+        "africa"
+      ],
+      "capital": {
+        "displayRu": "Банжул",
+        "accepted": [
+          "Банжул",
+          "Banjul"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "GH",
+      "iso3": "GHA",
+      "numeric": "288",
+      "name": {
+        "ru": "Гана",
+        "en": "Ghana"
+      },
+      "regionIds": [
+        "africa"
+      ],
+      "capital": {
+        "displayRu": "Аккра",
+        "accepted": [
+          "Аккра",
+          "Accra"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "GT",
+      "iso3": "GTM",
+      "numeric": "320",
+      "name": {
+        "ru": "Гватемала",
+        "en": "Guatemala"
+      },
+      "regionIds": [
+        "north-america"
+      ],
+      "capital": {
+        "displayRu": "Гватемала",
+        "accepted": [
+          "Гватемала",
+          "Guatemala City"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "GN",
+      "iso3": "GIN",
+      "numeric": "324",
+      "name": {
+        "ru": "Гвинея",
+        "en": "Guinea"
+      },
+      "regionIds": [
+        "africa"
+      ],
+      "capital": {
+        "displayRu": "Конакри",
+        "accepted": [
+          "Конакри",
+          "Conakry"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "GW",
+      "iso3": "GNB",
+      "numeric": "624",
+      "name": {
+        "ru": "Гвинея-Бисау",
+        "en": "Guinea-Bissau"
+      },
+      "regionIds": [
+        "africa"
+      ],
+      "capital": {
+        "displayRu": "Бисау",
+        "accepted": [
+          "Бисау",
+          "Bissau"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "DE",
+      "iso3": "DEU",
+      "numeric": "276",
+      "name": {
+        "ru": "Германия",
+        "en": "Germany"
+      },
+      "regionIds": [
+        "europe"
+      ],
+      "capital": {
+        "displayRu": "Берлин",
+        "accepted": [
+          "Берлин",
+          "Berlin"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "HN",
+      "iso3": "HND",
+      "numeric": "340",
+      "name": {
+        "ru": "Гондурас",
+        "en": "Honduras"
+      },
+      "regionIds": [
+        "north-america"
+      ],
+      "capital": {
+        "displayRu": "Тегусигальпа",
+        "accepted": [
+          "Тегусигальпа",
+          "Tegucigalpa"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "GD",
+      "iso3": "GRD",
+      "numeric": "308",
+      "name": {
+        "ru": "Гренада",
+        "en": "Grenada"
+      },
+      "regionIds": [
+        "north-america"
+      ],
+      "capital": {
+        "displayRu": "Сент-Джорджес",
+        "accepted": [
+          "Сент-Джорджес",
+          "St. George's"
+        ]
+      },
+      "hitPoint": [
+        12.11666666,
+        -61.66666666
+      ],
+      "hitRadiusPx": 10,
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "GR",
+      "iso3": "GRC",
+      "numeric": "300",
+      "name": {
+        "ru": "Греция",
+        "en": "Greece"
+      },
+      "regionIds": [
+        "europe"
+      ],
+      "capital": {
+        "displayRu": "Афины",
+        "accepted": [
+          "Афины",
+          "Athens"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "GE",
+      "iso3": "GEO",
+      "numeric": "268",
+      "name": {
+        "ru": "Грузия",
+        "en": "Georgia"
+      },
+      "regionIds": [
+        "europe",
+        "asia"
+      ],
+      "capital": {
+        "displayRu": "Тбилиси",
+        "accepted": [
+          "Тбилиси",
+          "Tbilisi"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "DK",
+      "iso3": "DNK",
+      "numeric": "208",
+      "name": {
+        "ru": "Дания",
+        "en": "Denmark"
+      },
+      "regionIds": [
+        "europe"
+      ],
+      "capital": {
+        "displayRu": "Копенгаген",
+        "accepted": [
+          "Копенгаген",
+          "Copenhagen"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "CD",
+      "iso3": "COD",
+      "numeric": "180",
+      "name": {
+        "ru": "Демократическая Республика Конго",
+        "en": "DR Congo"
+      },
+      "regionIds": [
+        "africa"
+      ],
+      "capital": {
+        "displayRu": "Киншаса",
+        "accepted": [
+          "Киншаса",
+          "Kinshasa"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "DJ",
+      "iso3": "DJI",
+      "numeric": "262",
+      "name": {
+        "ru": "Джибути",
+        "en": "Djibouti"
+      },
+      "regionIds": [
+        "africa"
+      ],
+      "capital": {
+        "displayRu": "Джибути",
+        "accepted": [
+          "Джибути",
+          "Djibouti"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "DM",
+      "iso3": "DMA",
+      "numeric": "212",
+      "name": {
+        "ru": "Доминика",
+        "en": "Dominica"
+      },
+      "regionIds": [
+        "north-america"
+      ],
+      "capital": {
+        "displayRu": "Розо",
+        "accepted": [
+          "Розо",
+          "Roseau"
+        ]
+      },
+      "hitPoint": [
+        15.41666666,
+        -61.33333333
+      ],
+      "hitRadiusPx": 10,
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "DO",
+      "iso3": "DOM",
+      "numeric": "214",
+      "name": {
+        "ru": "Доминиканская Республика",
+        "en": "Dominican Republic"
+      },
+      "regionIds": [
+        "north-america"
+      ],
+      "capital": {
+        "displayRu": "Санто-Доминго",
+        "accepted": [
+          "Санто-Доминго",
+          "Santo Domingo"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "EG",
+      "iso3": "EGY",
+      "numeric": "818",
+      "name": {
+        "ru": "Египет",
+        "en": "Egypt"
+      },
+      "regionIds": [
+        "africa",
+        "asia"
+      ],
+      "capital": {
+        "displayRu": "Каир",
+        "accepted": [
+          "Каир",
+          "Cairo"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "ZM",
+      "iso3": "ZMB",
+      "numeric": "894",
+      "name": {
+        "ru": "Замбия",
+        "en": "Zambia"
+      },
+      "regionIds": [
+        "africa"
+      ],
+      "capital": {
+        "displayRu": "Лусака",
+        "accepted": [
+          "Лусака",
+          "Lusaka"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "ZW",
+      "iso3": "ZWE",
+      "numeric": "716",
+      "name": {
+        "ru": "Зимбабве",
+        "en": "Zimbabwe"
+      },
+      "regionIds": [
+        "africa"
+      ],
+      "capital": {
+        "displayRu": "Хараре",
+        "accepted": [
+          "Хараре",
+          "Harare"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "IL",
+      "iso3": "ISR",
+      "numeric": "376",
+      "name": {
+        "ru": "Израиль",
+        "en": "Israel"
+      },
+      "regionIds": [
+        "asia"
+      ],
+      "capital": {
+        "displayRu": "Иерусалим",
+        "accepted": [
+          "Иерусалим",
+          "Jerusalem"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "IN",
+      "iso3": "IND",
+      "numeric": "356",
+      "name": {
+        "ru": "Индия",
+        "en": "India"
+      },
+      "regionIds": [
+        "asia"
+      ],
+      "capital": {
+        "displayRu": "Нью-Дели",
+        "accepted": [
+          "Нью-Дели",
+          "New Delhi"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "ID",
+      "iso3": "IDN",
+      "numeric": "360",
+      "name": {
+        "ru": "Индонезия",
+        "en": "Indonesia"
+      },
+      "regionIds": [
+        "asia",
+        "oceania"
+      ],
+      "capital": {
+        "displayRu": "Джакарта",
+        "accepted": [
+          "Джакарта",
+          "Jakarta",
+          "Нусантара",
+          "Nusantara"
+        ],
+        "note": "Перенос столицы в Нусантару проходит поэтапно; игра принимает оба ответа."
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "JO",
+      "iso3": "JOR",
+      "numeric": "400",
+      "name": {
+        "ru": "Иордания",
+        "en": "Jordan"
+      },
+      "regionIds": [
+        "asia"
+      ],
+      "capital": {
+        "displayRu": "Амман",
+        "accepted": [
+          "Амман",
+          "Amman"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "IQ",
+      "iso3": "IRQ",
+      "numeric": "368",
+      "name": {
+        "ru": "Ирак",
+        "en": "Iraq"
+      },
+      "regionIds": [
+        "asia"
+      ],
+      "capital": {
+        "displayRu": "Багдад",
+        "accepted": [
+          "Багдад",
+          "Baghdad"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "IR",
+      "iso3": "IRN",
+      "numeric": "364",
+      "name": {
+        "ru": "Иран",
+        "en": "Iran"
+      },
+      "regionIds": [
+        "asia"
+      ],
+      "capital": {
+        "displayRu": "Тегеран",
+        "accepted": [
+          "Тегеран",
+          "Tehran"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "IE",
+      "iso3": "IRL",
+      "numeric": "372",
+      "name": {
+        "ru": "Ирландия",
+        "en": "Ireland"
+      },
+      "regionIds": [
+        "europe"
+      ],
+      "capital": {
+        "displayRu": "Дублин",
+        "accepted": [
+          "Дублин",
+          "Dublin"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "IS",
+      "iso3": "ISL",
+      "numeric": "352",
+      "name": {
+        "ru": "Исландия",
+        "en": "Iceland"
+      },
+      "regionIds": [
+        "europe"
+      ],
+      "capital": {
+        "displayRu": "Рейкьявик",
+        "accepted": [
+          "Рейкьявик",
+          "Reykjavik"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "ES",
+      "iso3": "ESP",
+      "numeric": "724",
+      "name": {
+        "ru": "Испания",
+        "en": "Spain"
+      },
+      "regionIds": [
+        "europe"
+      ],
+      "capital": {
+        "displayRu": "Мадрид",
+        "accepted": [
+          "Мадрид",
+          "Madrid"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "IT",
+      "iso3": "ITA",
+      "numeric": "380",
+      "name": {
+        "ru": "Италия",
+        "en": "Italy"
+      },
+      "regionIds": [
+        "europe"
+      ],
+      "capital": {
+        "displayRu": "Рим",
+        "accepted": [
+          "Рим",
+          "Rome"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "YE",
+      "iso3": "YEM",
+      "numeric": "887",
+      "name": {
+        "ru": "Йемен",
+        "en": "Yemen"
+      },
+      "regionIds": [
+        "asia"
+      ],
+      "capital": {
+        "displayRu": "Сана",
+        "accepted": [
+          "Сана",
+          "Sanaa",
+          "Sana'a",
+          "Аден",
+          "Aden"
+        ],
+        "note": "Сана — конституционная столица; Аден используется как временная резиденция правительства."
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "CV",
+      "iso3": "CPV",
+      "numeric": "132",
+      "name": {
+        "ru": "Кабо-Верде",
+        "en": "Cape Verde"
+      },
+      "regionIds": [
+        "africa"
+      ],
+      "capital": {
+        "displayRu": "Прая",
+        "accepted": [
+          "Прая",
+          "Praia"
+        ]
+      },
+      "hitPoint": [
+        16,
+        -24
+      ],
+      "hitRadiusPx": 10,
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "KZ",
+      "iso3": "KAZ",
+      "numeric": "398",
+      "name": {
+        "ru": "Казахстан",
+        "en": "Kazakhstan"
+      },
+      "regionIds": [
+        "europe",
+        "asia"
+      ],
+      "capital": {
+        "displayRu": "Астана",
+        "accepted": [
+          "Астана",
+          "Astana"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "KH",
+      "iso3": "KHM",
+      "numeric": "116",
+      "name": {
+        "ru": "Камбоджа",
+        "en": "Cambodia"
+      },
+      "regionIds": [
+        "asia"
+      ],
+      "capital": {
+        "displayRu": "Пномпень",
+        "accepted": [
+          "Пномпень",
+          "Phnom Penh"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "CM",
+      "iso3": "CMR",
+      "numeric": "120",
+      "name": {
+        "ru": "Камерун",
+        "en": "Cameroon"
+      },
+      "regionIds": [
+        "africa"
+      ],
+      "capital": {
+        "displayRu": "Яунде",
+        "accepted": [
+          "Яунде",
+          "Yaoundé"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "CA",
+      "iso3": "CAN",
+      "numeric": "124",
+      "name": {
+        "ru": "Канада",
+        "en": "Canada"
+      },
+      "regionIds": [
+        "north-america"
+      ],
+      "capital": {
+        "displayRu": "Оттава",
+        "accepted": [
+          "Оттава",
+          "Ottawa"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "QA",
+      "iso3": "QAT",
+      "numeric": "634",
+      "name": {
+        "ru": "Катар",
+        "en": "Qatar"
+      },
+      "regionIds": [
+        "asia"
+      ],
+      "capital": {
+        "displayRu": "Доха",
+        "accepted": [
+          "Доха",
+          "Doha"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "KE",
+      "iso3": "KEN",
+      "numeric": "404",
+      "name": {
+        "ru": "Кения",
+        "en": "Kenya"
+      },
+      "regionIds": [
+        "africa"
+      ],
+      "capital": {
+        "displayRu": "Найроби",
+        "accepted": [
+          "Найроби",
+          "Nairobi"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "CY",
+      "iso3": "CYP",
+      "numeric": "196",
+      "name": {
+        "ru": "Кипр",
+        "en": "Cyprus"
+      },
+      "regionIds": [
+        "europe",
+        "asia"
+      ],
+      "capital": {
+        "displayRu": "Никосия",
+        "accepted": [
+          "Никосия",
+          "Nicosia"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "KG",
+      "iso3": "KGZ",
+      "numeric": "417",
+      "name": {
+        "ru": "Киргизия",
+        "en": "Kyrgyzstan"
+      },
+      "regionIds": [
+        "asia"
+      ],
+      "capital": {
+        "displayRu": "Бишкек",
+        "accepted": [
+          "Бишкек",
+          "Bishkek"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "KI",
+      "iso3": "KIR",
+      "numeric": "296",
+      "name": {
+        "ru": "Кирибати",
+        "en": "Kiribati"
+      },
+      "regionIds": [
+        "oceania"
+      ],
+      "capital": {
+        "displayRu": "Южная Тарава",
+        "accepted": [
+          "Южная Тарава",
+          "South Tarawa"
+        ]
+      },
+      "hitPoint": [
+        1.41666666,
+        173
+      ],
+      "hitRadiusPx": 10,
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "CN",
+      "iso3": "CHN",
+      "numeric": "156",
+      "name": {
+        "ru": "Китай",
+        "en": "China"
+      },
+      "regionIds": [
+        "asia"
+      ],
+      "capital": {
+        "displayRu": "Пекин",
+        "accepted": [
+          "Пекин",
+          "Beijing"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "CO",
+      "iso3": "COL",
+      "numeric": "170",
+      "name": {
+        "ru": "Колумбия",
+        "en": "Colombia"
+      },
+      "regionIds": [
+        "south-america"
+      ],
+      "capital": {
+        "displayRu": "Богота",
+        "accepted": [
+          "Богота",
+          "Bogotá"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "KM",
+      "iso3": "COM",
+      "numeric": "174",
+      "name": {
+        "ru": "Коморы",
+        "en": "Comoros"
+      },
+      "regionIds": [
+        "africa"
+      ],
+      "capital": {
+        "displayRu": "Морони",
+        "accepted": [
+          "Морони",
+          "Moroni"
+        ]
+      },
+      "hitPoint": [
+        -12.16666666,
+        44.25
+      ],
+      "hitRadiusPx": 10,
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "CR",
+      "iso3": "CRI",
+      "numeric": "188",
+      "name": {
+        "ru": "Коста-Рика",
+        "en": "Costa Rica"
+      },
+      "regionIds": [
+        "north-america"
+      ],
+      "capital": {
+        "displayRu": "Сан-Хосе",
+        "accepted": [
+          "Сан-Хосе",
+          "San José"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "CI",
+      "iso3": "CIV",
+      "numeric": "384",
+      "name": {
+        "ru": "Кот-д’Ивуар",
+        "en": "Ivory Coast"
+      },
+      "regionIds": [
+        "africa"
+      ],
+      "capital": {
+        "displayRu": "Ямусукро",
+        "accepted": [
+          "Ямусукро",
+          "Yamoussoukro"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "CU",
+      "iso3": "CUB",
+      "numeric": "192",
+      "name": {
+        "ru": "Куба",
+        "en": "Cuba"
+      },
+      "regionIds": [
+        "north-america"
+      ],
+      "capital": {
+        "displayRu": "Гавана",
+        "accepted": [
+          "Гавана",
+          "Havana"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "KW",
+      "iso3": "KWT",
+      "numeric": "414",
+      "name": {
+        "ru": "Кувейт",
+        "en": "Kuwait"
+      },
+      "regionIds": [
+        "asia"
+      ],
+      "capital": {
+        "displayRu": "Эль-Кувейт",
+        "accepted": [
+          "Эль-Кувейт",
+          "Kuwait City"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "LA",
+      "iso3": "LAO",
+      "numeric": "418",
+      "name": {
+        "ru": "Лаос",
+        "en": "Laos"
+      },
+      "regionIds": [
+        "asia"
+      ],
+      "capital": {
+        "displayRu": "Вьентьян",
+        "accepted": [
+          "Вьентьян",
+          "Vientiane"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "LV",
+      "iso3": "LVA",
+      "numeric": "428",
+      "name": {
+        "ru": "Латвия",
+        "en": "Latvia"
+      },
+      "regionIds": [
+        "europe"
+      ],
+      "capital": {
+        "displayRu": "Рига",
+        "accepted": [
+          "Рига",
+          "Riga"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "LS",
+      "iso3": "LSO",
+      "numeric": "426",
+      "name": {
+        "ru": "Лесото",
+        "en": "Lesotho"
+      },
+      "regionIds": [
+        "africa"
+      ],
+      "capital": {
+        "displayRu": "Масеру",
+        "accepted": [
+          "Масеру",
+          "Maseru"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "LR",
+      "iso3": "LBR",
+      "numeric": "430",
+      "name": {
+        "ru": "Либерия",
+        "en": "Liberia"
+      },
+      "regionIds": [
+        "africa"
+      ],
+      "capital": {
+        "displayRu": "Монровия",
+        "accepted": [
+          "Монровия",
+          "Monrovia"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "LB",
+      "iso3": "LBN",
+      "numeric": "422",
+      "name": {
+        "ru": "Ливан",
+        "en": "Lebanon"
+      },
+      "regionIds": [
+        "asia"
+      ],
+      "capital": {
+        "displayRu": "Бейрут",
+        "accepted": [
+          "Бейрут",
+          "Beirut"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "LY",
+      "iso3": "LBY",
+      "numeric": "434",
+      "name": {
+        "ru": "Ливия",
+        "en": "Libya"
+      },
+      "regionIds": [
+        "africa"
+      ],
+      "capital": {
+        "displayRu": "Триполи",
+        "accepted": [
+          "Триполи",
+          "Tripoli"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "LT",
+      "iso3": "LTU",
+      "numeric": "440",
+      "name": {
+        "ru": "Литва",
+        "en": "Lithuania"
+      },
+      "regionIds": [
+        "europe"
+      ],
+      "capital": {
+        "displayRu": "Вильнюс",
+        "accepted": [
+          "Вильнюс",
+          "Vilnius"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "LI",
+      "iso3": "LIE",
+      "numeric": "438",
+      "name": {
+        "ru": "Лихтенштейн",
+        "en": "Liechtenstein"
+      },
+      "regionIds": [
+        "europe"
+      ],
+      "capital": {
+        "displayRu": "Вадуц",
+        "accepted": [
+          "Вадуц",
+          "Vaduz"
+        ]
+      },
+      "hitPoint": [
+        47.26666666,
+        9.53333333
+      ],
+      "hitRadiusPx": 10,
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "LU",
+      "iso3": "LUX",
+      "numeric": "442",
+      "name": {
+        "ru": "Люксембург",
+        "en": "Luxembourg"
+      },
+      "regionIds": [
+        "europe"
+      ],
+      "capital": {
+        "displayRu": "Люксембург",
+        "accepted": [
+          "Люксембург",
+          "Luxembourg"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "MU",
+      "iso3": "MUS",
+      "numeric": "480",
+      "name": {
+        "ru": "Маврикий",
+        "en": "Mauritius"
+      },
+      "regionIds": [
+        "africa"
+      ],
+      "capital": {
+        "displayRu": "Порт-Луи",
+        "accepted": [
+          "Порт-Луи",
+          "Port Louis"
+        ]
+      },
+      "hitPoint": [
+        -20.28333333,
+        57.55
+      ],
+      "hitRadiusPx": 10,
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "MR",
+      "iso3": "MRT",
+      "numeric": "478",
+      "name": {
+        "ru": "Мавритания",
+        "en": "Mauritania"
+      },
+      "regionIds": [
+        "africa"
+      ],
+      "capital": {
+        "displayRu": "Нуакшот",
+        "accepted": [
+          "Нуакшот",
+          "Nouakchott"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "MG",
+      "iso3": "MDG",
+      "numeric": "450",
+      "name": {
+        "ru": "Мадагаскар",
+        "en": "Madagascar"
+      },
+      "regionIds": [
+        "africa"
+      ],
+      "capital": {
+        "displayRu": "Антананариву",
+        "accepted": [
+          "Антананариву",
+          "Antananarivo"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "MW",
+      "iso3": "MWI",
+      "numeric": "454",
+      "name": {
+        "ru": "Малави",
+        "en": "Malawi"
+      },
+      "regionIds": [
+        "africa"
+      ],
+      "capital": {
+        "displayRu": "Лилонгве",
+        "accepted": [
+          "Лилонгве",
+          "Lilongwe"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "MY",
+      "iso3": "MYS",
+      "numeric": "458",
+      "name": {
+        "ru": "Малайзия",
+        "en": "Malaysia"
+      },
+      "regionIds": [
+        "asia"
+      ],
+      "capital": {
+        "displayRu": "Куала-Лумпур",
+        "accepted": [
+          "Куала-Лумпур",
+          "Kuala Lumpur"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "ML",
+      "iso3": "MLI",
+      "numeric": "466",
+      "name": {
+        "ru": "Мали",
+        "en": "Mali"
+      },
+      "regionIds": [
+        "africa"
+      ],
+      "capital": {
+        "displayRu": "Бамако",
+        "accepted": [
+          "Бамако",
+          "Bamako"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "MV",
+      "iso3": "MDV",
+      "numeric": "462",
+      "name": {
+        "ru": "Мальдивы",
+        "en": "Maldives"
+      },
+      "regionIds": [
+        "asia"
+      ],
+      "capital": {
+        "displayRu": "Мале",
+        "accepted": [
+          "Мале",
+          "Malé"
+        ]
+      },
+      "hitPoint": [
+        3.25,
+        73
+      ],
+      "hitRadiusPx": 10,
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "MT",
+      "iso3": "MLT",
+      "numeric": "470",
+      "name": {
+        "ru": "Мальта",
+        "en": "Malta"
+      },
+      "regionIds": [
+        "europe"
+      ],
+      "capital": {
+        "displayRu": "Валлетта",
+        "accepted": [
+          "Валлетта",
+          "Valletta"
+        ]
+      },
+      "hitPoint": [
+        35.83333333,
+        14.58333333
+      ],
+      "hitRadiusPx": 10,
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "MA",
+      "iso3": "MAR",
+      "numeric": "504",
+      "name": {
+        "ru": "Марокко",
+        "en": "Morocco"
+      },
+      "regionIds": [
+        "africa"
+      ],
+      "capital": {
+        "displayRu": "Рабат",
+        "accepted": [
+          "Рабат",
+          "Rabat"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "MH",
+      "iso3": "MHL",
+      "numeric": "584",
+      "name": {
+        "ru": "Маршалловы Острова",
+        "en": "Marshall Islands"
+      },
+      "regionIds": [
+        "oceania"
+      ],
+      "capital": {
+        "displayRu": "Маджуро",
+        "accepted": [
+          "Маджуро",
+          "Majuro"
+        ]
+      },
+      "hitPoint": [
+        9,
+        168
+      ],
+      "hitRadiusPx": 10,
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "MX",
+      "iso3": "MEX",
+      "numeric": "484",
+      "name": {
+        "ru": "Мексика",
+        "en": "Mexico"
+      },
+      "regionIds": [
+        "north-america"
+      ],
+      "capital": {
+        "displayRu": "Мехико",
+        "accepted": [
+          "Мехико",
+          "Mexico City"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "MZ",
+      "iso3": "MOZ",
+      "numeric": "508",
+      "name": {
+        "ru": "Мозамбик",
+        "en": "Mozambique"
+      },
+      "regionIds": [
+        "africa"
+      ],
+      "capital": {
+        "displayRu": "Мапуту",
+        "accepted": [
+          "Мапуту",
+          "Maputo"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "MD",
+      "iso3": "MDA",
+      "numeric": "498",
+      "name": {
+        "ru": "Молдавия",
+        "en": "Moldova"
+      },
+      "regionIds": [
+        "europe"
+      ],
+      "capital": {
+        "displayRu": "Кишинёв",
+        "accepted": [
+          "Кишинёв",
+          "Chișinău"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "MC",
+      "iso3": "MCO",
+      "numeric": "492",
+      "name": {
+        "ru": "Монако",
+        "en": "Monaco"
+      },
+      "regionIds": [
+        "europe"
+      ],
+      "capital": {
+        "displayRu": "Монако",
+        "accepted": [
+          "Монако",
+          "Monaco"
+        ]
+      },
+      "hitPoint": [
+        43.73333333,
+        7.4
+      ],
+      "hitRadiusPx": 10,
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "MN",
+      "iso3": "MNG",
+      "numeric": "496",
+      "name": {
+        "ru": "Монголия",
+        "en": "Mongolia"
+      },
+      "regionIds": [
+        "asia"
+      ],
+      "capital": {
+        "displayRu": "Улан-Батор",
+        "accepted": [
+          "Улан-Батор",
+          "Ulaanbaatar",
+          "Ulan Bator"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "MM",
+      "iso3": "MMR",
+      "numeric": "104",
+      "name": {
+        "ru": "Мьянма",
+        "en": "Myanmar"
+      },
+      "regionIds": [
+        "asia"
+      ],
+      "capital": {
+        "displayRu": "Нейпьидо",
+        "accepted": [
+          "Нейпьидо",
+          "Naypyidaw"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "NA",
+      "iso3": "NAM",
+      "numeric": "516",
+      "name": {
+        "ru": "Намибия",
+        "en": "Namibia"
+      },
+      "regionIds": [
+        "africa"
+      ],
+      "capital": {
+        "displayRu": "Виндхук",
+        "accepted": [
+          "Виндхук",
+          "Windhoek"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "NR",
+      "iso3": "NRU",
+      "numeric": "520",
+      "name": {
+        "ru": "Науру",
+        "en": "Nauru"
+      },
+      "regionIds": [
+        "oceania"
+      ],
+      "capital": {
+        "displayRu": "Ярен",
+        "accepted": [
+          "Ярен",
+          "Yaren",
+          "Yaren District"
+        ],
+        "note": "У Науру нет официально назначенной столицы; правительство находится в округе Ярен."
+      },
+      "hitPoint": [
+        -0.53333333,
+        166.91666666
+      ],
+      "hitRadiusPx": 10,
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "NP",
+      "iso3": "NPL",
+      "numeric": "524",
+      "name": {
+        "ru": "Непал",
+        "en": "Nepal"
+      },
+      "regionIds": [
+        "asia"
+      ],
+      "capital": {
+        "displayRu": "Катманду",
+        "accepted": [
+          "Катманду",
+          "Kathmandu"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "NE",
+      "iso3": "NER",
+      "numeric": "562",
+      "name": {
+        "ru": "Нигер",
+        "en": "Niger"
+      },
+      "regionIds": [
+        "africa"
+      ],
+      "capital": {
+        "displayRu": "Ниамей",
+        "accepted": [
+          "Ниамей",
+          "Niamey"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "NG",
+      "iso3": "NGA",
+      "numeric": "566",
+      "name": {
+        "ru": "Нигерия",
+        "en": "Nigeria"
+      },
+      "regionIds": [
+        "africa"
+      ],
+      "capital": {
+        "displayRu": "Абуджа",
+        "accepted": [
+          "Абуджа",
+          "Abuja"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "NL",
+      "iso3": "NLD",
+      "numeric": "528",
+      "name": {
+        "ru": "Нидерланды",
+        "en": "Netherlands"
+      },
+      "regionIds": [
+        "europe"
+      ],
+      "capital": {
+        "displayRu": "Амстердам",
+        "accepted": [
+          "Амстердам",
+          "Amsterdam"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "NI",
+      "iso3": "NIC",
+      "numeric": "558",
+      "name": {
+        "ru": "Никарагуа",
+        "en": "Nicaragua"
+      },
+      "regionIds": [
+        "north-america"
+      ],
+      "capital": {
+        "displayRu": "Манагуа",
+        "accepted": [
+          "Манагуа",
+          "Managua"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "NZ",
+      "iso3": "NZL",
+      "numeric": "554",
+      "name": {
+        "ru": "Новая Зеландия",
+        "en": "New Zealand"
+      },
+      "regionIds": [
+        "oceania"
+      ],
+      "capital": {
+        "displayRu": "Веллингтон",
+        "accepted": [
+          "Веллингтон",
+          "Wellington"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "NO",
+      "iso3": "NOR",
+      "numeric": "578",
+      "name": {
+        "ru": "Норвегия",
+        "en": "Norway"
+      },
+      "regionIds": [
+        "europe"
+      ],
+      "capital": {
+        "displayRu": "Осло",
+        "accepted": [
+          "Осло",
+          "Oslo"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "AE",
+      "iso3": "ARE",
+      "numeric": "784",
+      "name": {
+        "ru": "Объединённые Арабские Эмираты",
+        "en": "United Arab Emirates"
+      },
+      "regionIds": [
+        "asia"
+      ],
+      "capital": {
+        "displayRu": "Абу-Даби",
+        "accepted": [
+          "Абу-Даби",
+          "Abu Dhabi"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "OM",
+      "iso3": "OMN",
+      "numeric": "512",
+      "name": {
+        "ru": "Оман",
+        "en": "Oman"
+      },
+      "regionIds": [
+        "asia"
+      ],
+      "capital": {
+        "displayRu": "Маскат",
+        "accepted": [
+          "Маскат",
+          "Muscat"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "PK",
+      "iso3": "PAK",
+      "numeric": "586",
+      "name": {
+        "ru": "Пакистан",
+        "en": "Pakistan"
+      },
+      "regionIds": [
+        "asia"
+      ],
+      "capital": {
+        "displayRu": "Исламабад",
+        "accepted": [
+          "Исламабад",
+          "Islamabad"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "PW",
+      "iso3": "PLW",
+      "numeric": "585",
+      "name": {
+        "ru": "Палау",
+        "en": "Palau"
+      },
+      "regionIds": [
+        "oceania"
+      ],
+      "capital": {
+        "displayRu": "Нгерулмуд",
+        "accepted": [
+          "Нгерулмуд",
+          "Ngerulmud"
+        ]
+      },
+      "hitPoint": [
+        7.5,
+        134.5
+      ],
+      "hitRadiusPx": 10,
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "PS",
+      "iso3": "PSE",
+      "numeric": "275",
+      "name": {
+        "ru": "Палестина",
+        "en": "Palestine"
+      },
+      "regionIds": [
+        "asia"
+      ],
+      "capital": {
+        "displayRu": "Восточный Иерусалим",
+        "accepted": [
+          "Восточный Иерусалим",
+          "East Jerusalem",
+          "Иерусалим",
+          "Jerusalem",
+          "Рамалла",
+          "Ramallah"
+        ],
+        "note": "Восточный Иерусалим заявлен столицей; администрация работает в Рамалле."
+      },
+      "quizEligible": true,
+      "status": "observer"
+    },
+    {
+      "iso2": "PA",
+      "iso3": "PAN",
+      "numeric": "591",
+      "name": {
+        "ru": "Панама",
+        "en": "Panama"
+      },
+      "regionIds": [
+        "north-america"
+      ],
+      "capital": {
+        "displayRu": "Панама",
+        "accepted": [
+          "Панама",
+          "Panama City"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "PG",
+      "iso3": "PNG",
+      "numeric": "598",
+      "name": {
+        "ru": "Папуа — Новая Гвинея",
+        "en": "Papua New Guinea"
+      },
+      "regionIds": [
+        "oceania"
+      ],
+      "capital": {
+        "displayRu": "Порт-Морсби",
+        "accepted": [
+          "Порт-Морсби",
+          "Port Moresby"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "PY",
+      "iso3": "PRY",
+      "numeric": "600",
+      "name": {
+        "ru": "Парагвай",
+        "en": "Paraguay"
+      },
+      "regionIds": [
+        "south-america"
+      ],
+      "capital": {
+        "displayRu": "Асунсьон",
+        "accepted": [
+          "Асунсьон",
+          "Asunción"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "PE",
+      "iso3": "PER",
+      "numeric": "604",
+      "name": {
+        "ru": "Перу",
+        "en": "Peru"
+      },
+      "regionIds": [
+        "south-america"
+      ],
+      "capital": {
+        "displayRu": "Лима",
+        "accepted": [
+          "Лима",
+          "Lima"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "PL",
+      "iso3": "POL",
+      "numeric": "616",
+      "name": {
+        "ru": "Польша",
+        "en": "Poland"
+      },
+      "regionIds": [
+        "europe"
+      ],
+      "capital": {
+        "displayRu": "Варшава",
+        "accepted": [
+          "Варшава",
+          "Warsaw"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "PT",
+      "iso3": "PRT",
+      "numeric": "620",
+      "name": {
+        "ru": "Португалия",
+        "en": "Portugal"
+      },
+      "regionIds": [
+        "europe"
+      ],
+      "capital": {
+        "displayRu": "Лиссабон",
+        "accepted": [
+          "Лиссабон",
+          "Lisbon"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "CG",
+      "iso3": "COG",
+      "numeric": "178",
+      "name": {
+        "ru": "Республика Конго",
+        "en": "Republic of the Congo"
+      },
+      "regionIds": [
+        "africa"
+      ],
+      "capital": {
+        "displayRu": "Браззавиль",
+        "accepted": [
+          "Браззавиль",
+          "Brazzaville"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "RU",
+      "iso3": "RUS",
+      "numeric": "643",
+      "name": {
+        "ru": "Россия",
+        "en": "Russia"
+      },
+      "regionIds": [
+        "europe",
+        "asia"
+      ],
+      "capital": {
+        "displayRu": "Москва",
+        "accepted": [
+          "Москва",
+          "Moscow"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "RW",
+      "iso3": "RWA",
+      "numeric": "646",
+      "name": {
+        "ru": "Руанда",
+        "en": "Rwanda"
+      },
+      "regionIds": [
+        "africa"
+      ],
+      "capital": {
+        "displayRu": "Кигали",
+        "accepted": [
+          "Кигали",
+          "Kigali"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "RO",
+      "iso3": "ROU",
+      "numeric": "642",
+      "name": {
+        "ru": "Румыния",
+        "en": "Romania"
+      },
+      "regionIds": [
+        "europe"
+      ],
+      "capital": {
+        "displayRu": "Бухарест",
+        "accepted": [
+          "Бухарест",
+          "Bucharest"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "SV",
+      "iso3": "SLV",
+      "numeric": "222",
+      "name": {
+        "ru": "Сальвадор",
+        "en": "El Salvador"
+      },
+      "regionIds": [
+        "north-america"
+      ],
+      "capital": {
+        "displayRu": "Сан-Сальвадор",
+        "accepted": [
+          "Сан-Сальвадор",
+          "San Salvador"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "WS",
+      "iso3": "WSM",
+      "numeric": "882",
+      "name": {
+        "ru": "Самоа",
+        "en": "Samoa"
+      },
+      "regionIds": [
+        "oceania"
+      ],
+      "capital": {
+        "displayRu": "Апиа",
+        "accepted": [
+          "Апиа",
+          "Apia"
+        ]
+      },
+      "hitPoint": [
+        -13.58333333,
+        -172.33333333
+      ],
+      "hitRadiusPx": 10,
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "SM",
+      "iso3": "SMR",
+      "numeric": "674",
+      "name": {
+        "ru": "Сан-Марино",
+        "en": "San Marino"
+      },
+      "regionIds": [
+        "europe"
+      ],
+      "capital": {
+        "displayRu": "Сан-Марино",
+        "accepted": [
+          "Сан-Марино",
+          "San Marino",
+          "City of San Marino"
+        ]
+      },
+      "hitPoint": [
+        43.76666666,
+        12.41666666
+      ],
+      "hitRadiusPx": 10,
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "ST",
+      "iso3": "STP",
+      "numeric": "678",
+      "name": {
+        "ru": "Сан-Томе и Принсипи",
+        "en": "São Tomé and Príncipe"
+      },
+      "regionIds": [
+        "africa"
+      ],
+      "capital": {
+        "displayRu": "Сан-Томе",
+        "accepted": [
+          "Сан-Томе",
+          "São Tomé"
+        ]
+      },
+      "hitPoint": [
+        1,
+        7
+      ],
+      "hitRadiusPx": 10,
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "SA",
+      "iso3": "SAU",
+      "numeric": "682",
+      "name": {
+        "ru": "Саудовская Аравия",
+        "en": "Saudi Arabia"
+      },
+      "regionIds": [
+        "asia"
+      ],
+      "capital": {
+        "displayRu": "Эр-Рияд",
+        "accepted": [
+          "Эр-Рияд",
+          "Riyadh"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "KP",
+      "iso3": "PRK",
+      "numeric": "408",
+      "name": {
+        "ru": "Северная Корея",
+        "en": "North Korea"
+      },
+      "regionIds": [
+        "asia"
+      ],
+      "capital": {
+        "displayRu": "Пхеньян",
+        "accepted": [
+          "Пхеньян",
+          "Pyongyang"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "MK",
+      "iso3": "MKD",
+      "numeric": "807",
+      "name": {
+        "ru": "Северная Македония",
+        "en": "North Macedonia"
+      },
+      "regionIds": [
+        "europe"
+      ],
+      "capital": {
+        "displayRu": "Скопье",
+        "accepted": [
+          "Скопье",
+          "Skopje"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "SC",
+      "iso3": "SYC",
+      "numeric": "690",
+      "name": {
+        "ru": "Сейшельские Острова",
+        "en": "Seychelles"
+      },
+      "regionIds": [
+        "africa"
+      ],
+      "capital": {
+        "displayRu": "Виктория",
+        "accepted": [
+          "Виктория",
+          "Victoria"
+        ]
+      },
+      "hitPoint": [
+        -4.58333333,
+        55.66666666
+      ],
+      "hitRadiusPx": 10,
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "SN",
+      "iso3": "SEN",
+      "numeric": "686",
+      "name": {
+        "ru": "Сенегал",
+        "en": "Senegal"
+      },
+      "regionIds": [
+        "africa"
+      ],
+      "capital": {
+        "displayRu": "Дакар",
+        "accepted": [
+          "Дакар",
+          "Dakar"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "VC",
+      "iso3": "VCT",
+      "numeric": "670",
+      "name": {
+        "ru": "Сент-Винсент и Гренадины",
+        "en": "Saint Vincent and the Grenadines"
+      },
+      "regionIds": [
+        "north-america"
+      ],
+      "capital": {
+        "displayRu": "Кингстаун",
+        "accepted": [
+          "Кингстаун",
+          "Kingstown"
+        ]
+      },
+      "hitPoint": [
+        13.25,
+        -61.2
+      ],
+      "hitRadiusPx": 10,
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "KN",
+      "iso3": "KNA",
+      "numeric": "659",
+      "name": {
+        "ru": "Сент-Китс и Невис",
+        "en": "Saint Kitts and Nevis"
+      },
+      "regionIds": [
+        "north-america"
+      ],
+      "capital": {
+        "displayRu": "Бастер",
+        "accepted": [
+          "Бастер",
+          "Basseterre"
+        ]
+      },
+      "hitPoint": [
+        17.33333333,
+        -62.75
+      ],
+      "hitRadiusPx": 10,
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "LC",
+      "iso3": "LCA",
+      "numeric": "662",
+      "name": {
+        "ru": "Сент-Люсия",
+        "en": "Saint Lucia"
+      },
+      "regionIds": [
+        "north-america"
+      ],
+      "capital": {
+        "displayRu": "Кастри",
+        "accepted": [
+          "Кастри",
+          "Castries"
+        ]
+      },
+      "hitPoint": [
+        13.88333333,
+        -60.96666666
+      ],
+      "hitRadiusPx": 10,
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "RS",
+      "iso3": "SRB",
+      "numeric": "688",
+      "name": {
+        "ru": "Сербия",
+        "en": "Serbia"
+      },
+      "regionIds": [
+        "europe"
+      ],
+      "capital": {
+        "displayRu": "Белград",
+        "accepted": [
+          "Белград",
+          "Belgrade"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "SG",
+      "iso3": "SGP",
+      "numeric": "702",
+      "name": {
+        "ru": "Сингапур",
+        "en": "Singapore"
+      },
+      "regionIds": [
+        "asia"
+      ],
+      "capital": {
+        "displayRu": "Сингапур",
+        "accepted": [
+          "Сингапур",
+          "Singapore"
+        ]
+      },
+      "hitPoint": [
+        1.36666666,
+        103.8
+      ],
+      "hitRadiusPx": 10,
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "SY",
+      "iso3": "SYR",
+      "numeric": "760",
+      "name": {
+        "ru": "Сирия",
+        "en": "Syria"
+      },
+      "regionIds": [
+        "asia"
+      ],
+      "capital": {
+        "displayRu": "Дамаск",
+        "accepted": [
+          "Дамаск",
+          "Damascus"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "SK",
+      "iso3": "SVK",
+      "numeric": "703",
+      "name": {
+        "ru": "Словакия",
+        "en": "Slovakia"
+      },
+      "regionIds": [
+        "europe"
+      ],
+      "capital": {
+        "displayRu": "Братислава",
+        "accepted": [
+          "Братислава",
+          "Bratislava"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "SI",
+      "iso3": "SVN",
+      "numeric": "705",
+      "name": {
+        "ru": "Словения",
+        "en": "Slovenia"
+      },
+      "regionIds": [
+        "europe"
+      ],
+      "capital": {
+        "displayRu": "Любляна",
+        "accepted": [
+          "Любляна",
+          "Ljubljana"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "US",
+      "iso3": "USA",
+      "numeric": "840",
+      "name": {
+        "ru": "Соединённые Штаты Америки",
+        "en": "United States"
+      },
+      "regionIds": [
+        "north-america"
+      ],
+      "capital": {
+        "displayRu": "Вашингтон",
+        "accepted": [
+          "Вашингтон",
+          "Washington D.C."
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "SB",
+      "iso3": "SLB",
+      "numeric": "090",
+      "name": {
+        "ru": "Соломоновы Острова",
+        "en": "Solomon Islands"
+      },
+      "regionIds": [
+        "oceania"
+      ],
+      "capital": {
+        "displayRu": "Хониара",
+        "accepted": [
+          "Хониара",
+          "Honiara"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "SO",
+      "iso3": "SOM",
+      "numeric": "706",
+      "name": {
+        "ru": "Сомали",
+        "en": "Somalia"
+      },
+      "regionIds": [
+        "africa"
+      ],
+      "capital": {
+        "displayRu": "Могадишо",
+        "accepted": [
+          "Могадишо",
+          "Mogadishu"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "SD",
+      "iso3": "SDN",
+      "numeric": "729",
+      "name": {
+        "ru": "Судан",
+        "en": "Sudan"
+      },
+      "regionIds": [
+        "africa"
+      ],
+      "capital": {
+        "displayRu": "Хартум",
+        "accepted": [
+          "Хартум",
+          "Khartoum"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "SR",
+      "iso3": "SUR",
+      "numeric": "740",
+      "name": {
+        "ru": "Суринам",
+        "en": "Suriname"
+      },
+      "regionIds": [
+        "south-america"
+      ],
+      "capital": {
+        "displayRu": "Парамарибо",
+        "accepted": [
+          "Парамарибо",
+          "Paramaribo"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "SL",
+      "iso3": "SLE",
+      "numeric": "694",
+      "name": {
+        "ru": "Сьерра-Леоне",
+        "en": "Sierra Leone"
+      },
+      "regionIds": [
+        "africa"
+      ],
+      "capital": {
+        "displayRu": "Фритаун",
+        "accepted": [
+          "Фритаун",
+          "Freetown"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "TJ",
+      "iso3": "TJK",
+      "numeric": "762",
+      "name": {
+        "ru": "Таджикистан",
+        "en": "Tajikistan"
+      },
+      "regionIds": [
+        "asia"
+      ],
+      "capital": {
+        "displayRu": "Душанбе",
+        "accepted": [
+          "Душанбе",
+          "Dushanbe"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "TH",
+      "iso3": "THA",
+      "numeric": "764",
+      "name": {
+        "ru": "Таиланд",
+        "en": "Thailand"
+      },
+      "regionIds": [
+        "asia"
+      ],
+      "capital": {
+        "displayRu": "Бангкок",
+        "accepted": [
+          "Бангкок",
+          "Bangkok"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "TZ",
+      "iso3": "TZA",
+      "numeric": "834",
+      "name": {
+        "ru": "Танзания",
+        "en": "Tanzania"
+      },
+      "regionIds": [
+        "africa"
+      ],
+      "capital": {
+        "displayRu": "Додома",
+        "accepted": [
+          "Додома",
+          "Dodoma"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "TG",
+      "iso3": "TGO",
+      "numeric": "768",
+      "name": {
+        "ru": "Того",
+        "en": "Togo"
+      },
+      "regionIds": [
+        "africa"
+      ],
+      "capital": {
+        "displayRu": "Ломе",
+        "accepted": [
+          "Ломе",
+          "Lomé"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "TO",
+      "iso3": "TON",
+      "numeric": "776",
+      "name": {
+        "ru": "Тонга",
+        "en": "Tonga"
+      },
+      "regionIds": [
+        "oceania"
+      ],
+      "capital": {
+        "displayRu": "Нукуалофа",
+        "accepted": [
+          "Нукуалофа",
+          "Nuku'alofa",
+          "Nukuʻalofa",
+          "Nukualofa"
+        ]
+      },
+      "hitPoint": [
+        -20,
+        -175
+      ],
+      "hitRadiusPx": 10,
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "TT",
+      "iso3": "TTO",
+      "numeric": "780",
+      "name": {
+        "ru": "Тринидад и Тобаго",
+        "en": "Trinidad and Tobago"
+      },
+      "regionIds": [
+        "north-america"
+      ],
+      "capital": {
+        "displayRu": "Порт-оф-Спейн",
+        "accepted": [
+          "Порт-оф-Спейн",
+          "Port of Spain"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "TV",
+      "iso3": "TUV",
+      "numeric": "798",
+      "name": {
+        "ru": "Тувалу",
+        "en": "Tuvalu"
+      },
+      "regionIds": [
+        "oceania"
+      ],
+      "capital": {
+        "displayRu": "Фунафути",
+        "accepted": [
+          "Фунафути",
+          "Funafuti"
+        ]
+      },
+      "hitPoint": [
+        -8,
+        178
+      ],
+      "hitRadiusPx": 10,
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "TN",
+      "iso3": "TUN",
+      "numeric": "788",
+      "name": {
+        "ru": "Тунис",
+        "en": "Tunisia"
+      },
+      "regionIds": [
+        "africa"
+      ],
+      "capital": {
+        "displayRu": "Тунис",
+        "accepted": [
+          "Тунис",
+          "Tunis"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "TM",
+      "iso3": "TKM",
+      "numeric": "795",
+      "name": {
+        "ru": "Туркмения",
+        "en": "Turkmenistan"
+      },
+      "regionIds": [
+        "asia"
+      ],
+      "capital": {
+        "displayRu": "Ашхабад",
+        "accepted": [
+          "Ашхабад",
+          "Ashgabat"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "TR",
+      "iso3": "TUR",
+      "numeric": "792",
+      "name": {
+        "ru": "Турция",
+        "en": "Türkiye"
+      },
+      "regionIds": [
+        "europe",
+        "asia"
+      ],
+      "capital": {
+        "displayRu": "Анкара",
+        "accepted": [
+          "Анкара",
+          "Ankara"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "UG",
+      "iso3": "UGA",
+      "numeric": "800",
+      "name": {
+        "ru": "Уганда",
+        "en": "Uganda"
+      },
+      "regionIds": [
+        "africa"
+      ],
+      "capital": {
+        "displayRu": "Кампала",
+        "accepted": [
+          "Кампала",
+          "Kampala"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "UZ",
+      "iso3": "UZB",
+      "numeric": "860",
+      "name": {
+        "ru": "Узбекистан",
+        "en": "Uzbekistan"
+      },
+      "regionIds": [
+        "asia"
+      ],
+      "capital": {
+        "displayRu": "Ташкент",
+        "accepted": [
+          "Ташкент",
+          "Tashkent"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "UA",
+      "iso3": "UKR",
+      "numeric": "804",
+      "name": {
+        "ru": "Украина",
+        "en": "Ukraine"
+      },
+      "regionIds": [
+        "europe"
+      ],
+      "capital": {
+        "displayRu": "Киев",
+        "accepted": [
+          "Киев",
+          "Kyiv"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "UY",
+      "iso3": "URY",
+      "numeric": "858",
+      "name": {
+        "ru": "Уругвай",
+        "en": "Uruguay"
+      },
+      "regionIds": [
+        "south-america"
+      ],
+      "capital": {
+        "displayRu": "Монтевидео",
+        "accepted": [
+          "Монтевидео",
+          "Montevideo"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "FM",
+      "iso3": "FSM",
+      "numeric": "583",
+      "name": {
+        "ru": "Федеративные Штаты Микронезии",
+        "en": "Micronesia"
+      },
+      "regionIds": [
+        "oceania"
+      ],
+      "capital": {
+        "displayRu": "Паликир",
+        "accepted": [
+          "Паликир",
+          "Palikir"
+        ]
+      },
+      "hitPoint": [
+        6.91666666,
+        158.25
+      ],
+      "hitRadiusPx": 10,
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "FJ",
+      "iso3": "FJI",
+      "numeric": "242",
+      "name": {
+        "ru": "Фиджи",
+        "en": "Fiji"
+      },
+      "regionIds": [
+        "oceania"
+      ],
+      "capital": {
+        "displayRu": "Сува",
+        "accepted": [
+          "Сува",
+          "Suva"
+        ]
+      },
+      "hitPoint": [
+        -18,
+        175
+      ],
+      "hitRadiusPx": 10,
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "PH",
+      "iso3": "PHL",
+      "numeric": "608",
+      "name": {
+        "ru": "Филиппины",
+        "en": "Philippines"
+      },
+      "regionIds": [
+        "asia"
+      ],
+      "capital": {
+        "displayRu": "Манила",
+        "accepted": [
+          "Манила",
+          "Manila"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "FI",
+      "iso3": "FIN",
+      "numeric": "246",
+      "name": {
+        "ru": "Финляндия",
+        "en": "Finland"
+      },
+      "regionIds": [
+        "europe"
+      ],
+      "capital": {
+        "displayRu": "Хельсинки",
+        "accepted": [
+          "Хельсинки",
+          "Helsinki"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "FR",
+      "iso3": "FRA",
+      "numeric": "250",
+      "name": {
+        "ru": "Франция",
+        "en": "France"
+      },
+      "regionIds": [
+        "europe"
+      ],
+      "capital": {
+        "displayRu": "Париж",
+        "accepted": [
+          "Париж",
+          "Paris"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "HR",
+      "iso3": "HRV",
+      "numeric": "191",
+      "name": {
+        "ru": "Хорватия",
+        "en": "Croatia"
+      },
+      "regionIds": [
+        "europe"
+      ],
+      "capital": {
+        "displayRu": "Загреб",
+        "accepted": [
+          "Загреб",
+          "Zagreb"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "CF",
+      "iso3": "CAF",
+      "numeric": "140",
+      "name": {
+        "ru": "Центральноафриканская Республика",
+        "en": "Central African Republic"
+      },
+      "regionIds": [
+        "africa"
+      ],
+      "capital": {
+        "displayRu": "Банги",
+        "accepted": [
+          "Банги",
+          "Bangui"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "TD",
+      "iso3": "TCD",
+      "numeric": "148",
+      "name": {
+        "ru": "Чад",
+        "en": "Chad"
+      },
+      "regionIds": [
+        "africa"
+      ],
+      "capital": {
+        "displayRu": "Нджамена",
+        "accepted": [
+          "Нджамена",
+          "N'Djamena"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "ME",
+      "iso3": "MNE",
+      "numeric": "499",
+      "name": {
+        "ru": "Черногория",
+        "en": "Montenegro"
+      },
+      "regionIds": [
+        "europe"
+      ],
+      "capital": {
+        "displayRu": "Подгорица",
+        "accepted": [
+          "Подгорица",
+          "Podgorica"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "CZ",
+      "iso3": "CZE",
+      "numeric": "203",
+      "name": {
+        "ru": "Чехия",
+        "en": "Czechia"
+      },
+      "regionIds": [
+        "europe"
+      ],
+      "capital": {
+        "displayRu": "Прага",
+        "accepted": [
+          "Прага",
+          "Prague"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "CL",
+      "iso3": "CHL",
+      "numeric": "152",
+      "name": {
+        "ru": "Чили",
+        "en": "Chile"
+      },
+      "regionIds": [
+        "south-america"
+      ],
+      "capital": {
+        "displayRu": "Сантьяго",
+        "accepted": [
+          "Сантьяго",
+          "Santiago"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "CH",
+      "iso3": "CHE",
+      "numeric": "756",
+      "name": {
+        "ru": "Швейцария",
+        "en": "Switzerland"
+      },
+      "regionIds": [
+        "europe"
+      ],
+      "capital": {
+        "displayRu": "Берн",
+        "accepted": [
+          "Берн",
+          "Bern"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "SE",
+      "iso3": "SWE",
+      "numeric": "752",
+      "name": {
+        "ru": "Швеция",
+        "en": "Sweden"
+      },
+      "regionIds": [
+        "europe"
+      ],
+      "capital": {
+        "displayRu": "Стокгольм",
+        "accepted": [
+          "Стокгольм",
+          "Stockholm"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "LK",
+      "iso3": "LKA",
+      "numeric": "144",
+      "name": {
+        "ru": "Шри-Ланка",
+        "en": "Sri Lanka"
+      },
+      "regionIds": [
+        "asia"
+      ],
+      "capital": {
+        "displayRu": "Шри-Джаяварденепура-Котте",
+        "accepted": [
+          "Шри-Джаяварденепура-Котте",
+          "Sri Jayawardenepura Kotte",
+          "Котте",
+          "Коломбо",
+          "Colombo"
+        ],
+        "note": "Официальная законодательная столица — Шри-Джаяварденепура-Котте; Коломбо остаётся главным городом."
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "EC",
+      "iso3": "ECU",
+      "numeric": "218",
+      "name": {
+        "ru": "Эквадор",
+        "en": "Ecuador"
+      },
+      "regionIds": [
+        "south-america"
+      ],
+      "capital": {
+        "displayRu": "Кито",
+        "accepted": [
+          "Кито",
+          "Quito"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "GQ",
+      "iso3": "GNQ",
+      "numeric": "226",
+      "name": {
+        "ru": "Экваториальная Гвинея",
+        "en": "Equatorial Guinea"
+      },
+      "regionIds": [
+        "africa"
+      ],
+      "capital": {
+        "displayRu": "Сьюдад-де-ла-Пас",
+        "accepted": [
+          "Сьюдад-де-ла-Пас",
+          "Ciudad de la Paz"
+        ],
+        "note": "Сьюдад-де-ла-Пас стала столицей 2 января 2026 года."
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "ER",
+      "iso3": "ERI",
+      "numeric": "232",
+      "name": {
+        "ru": "Эритрея",
+        "en": "Eritrea"
+      },
+      "regionIds": [
+        "africa"
+      ],
+      "capital": {
+        "displayRu": "Асмэра",
+        "accepted": [
+          "Асмэра",
+          "Asmara"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "SZ",
+      "iso3": "SWZ",
+      "numeric": "748",
+      "name": {
+        "ru": "Эсватини",
+        "en": "Eswatini"
+      },
+      "regionIds": [
+        "africa"
+      ],
+      "capital": {
+        "displayRu": "Мбабане",
+        "accepted": [
+          "Мбабане",
+          "Mbabane",
+          "Лобамба",
+          "Lobamba"
+        ],
+        "note": "Мбабане — административная, Лобамба — законодательная и королевская столица."
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "EE",
+      "iso3": "EST",
+      "numeric": "233",
+      "name": {
+        "ru": "Эстония",
+        "en": "Estonia"
+      },
+      "regionIds": [
+        "europe"
+      ],
+      "capital": {
+        "displayRu": "Таллин",
+        "accepted": [
+          "Таллин",
+          "Tallinn"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "ET",
+      "iso3": "ETH",
+      "numeric": "231",
+      "name": {
+        "ru": "Эфиопия",
+        "en": "Ethiopia"
+      },
+      "regionIds": [
+        "africa"
+      ],
+      "capital": {
+        "displayRu": "Аддис-Абеба",
+        "accepted": [
+          "Аддис-Абеба",
+          "Addis Ababa"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "KR",
+      "iso3": "KOR",
+      "numeric": "410",
+      "name": {
+        "ru": "Южная Корея",
+        "en": "South Korea"
+      },
+      "regionIds": [
+        "asia"
+      ],
+      "capital": {
+        "displayRu": "Сеул",
+        "accepted": [
+          "Сеул",
+          "Seoul"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "ZA",
+      "iso3": "ZAF",
+      "numeric": "710",
+      "name": {
+        "ru": "Южно-Африканская Республика",
+        "en": "South Africa"
+      },
+      "regionIds": [
+        "africa"
+      ],
+      "capital": {
+        "displayRu": "Претория",
+        "accepted": [
+          "Претория",
+          "Pretoria",
+          "Кейптаун",
+          "Cape Town",
+          "Блумфонтейн",
+          "Bloemfontein"
+        ],
+        "note": "У ЮАР три столицы: Претория, Кейптаун и Блумфонтейн."
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "SS",
+      "iso3": "SSD",
+      "numeric": "728",
+      "name": {
+        "ru": "Южный Судан",
+        "en": "South Sudan"
+      },
+      "regionIds": [
+        "africa"
+      ],
+      "capital": {
+        "displayRu": "Джуба",
+        "accepted": [
+          "Джуба",
+          "Juba"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "JM",
+      "iso3": "JAM",
+      "numeric": "388",
+      "name": {
+        "ru": "Ямайка",
+        "en": "Jamaica"
+      },
+      "regionIds": [
+        "north-america"
+      ],
+      "capital": {
+        "displayRu": "Кингстон",
+        "accepted": [
+          "Кингстон",
+          "Kingston"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    },
+    {
+      "iso2": "JP",
+      "iso3": "JPN",
+      "numeric": "392",
+      "name": {
+        "ru": "Япония",
+        "en": "Japan"
+      },
+      "regionIds": [
+        "asia"
+      ],
+      "capital": {
+        "displayRu": "Токио",
+        "accepted": [
+          "Токио",
+          "Tokyo"
+        ]
+      },
+      "quizEligible": true,
+      "status": "un-member"
+    }
+  ]
+}
