@@ -452,12 +452,14 @@
   function renderSelectionStatus() {
     const target = currentTarget();
     if (state.roundComplete && target) {
+      elements.mapSelectionStatus.classList.remove("visually-hidden");
       elements.mapSelectionStatus.textContent = `Правильный ответ на карте: ${target.name.ru}.`;
       return;
     }
     const selected = countryByIso3.get(state.selectedIso3);
+    elements.mapSelectionStatus.classList.toggle("visually-hidden", Boolean(selected));
     elements.mapSelectionStatus.textContent = selected
-      ? `Выбрано на карте: ${selected.name.ru}.`
+      ? "Страна выбрана на карте."
       : "Страна на карте пока не выбрана.";
   }
 
