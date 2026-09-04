@@ -146,7 +146,7 @@ a {
 .app-header {
   height: var(--header-height);
   display: grid;
-  grid-template-columns: minmax(230px, 1fr) auto minmax(230px, 1fr);
+  grid-template-columns: minmax(185px, 1fr) auto minmax(290px, 1fr);
   align-items: center;
   gap: 24px;
   padding: 0 38px;
@@ -236,7 +236,15 @@ a {
   transition: width 260ms ease;
 }
 
-.new-game-button {
+.header-actions {
+  display: flex;
+  justify-self: end;
+  align-items: center;
+  gap: 10px;
+}
+
+.new-game-button,
+.gift-button {
   min-width: 148px;
   min-height: 48px;
   justify-self: end;
@@ -255,7 +263,8 @@ a {
   transition: color 140ms ease, background-color 140ms ease, transform 140ms ease;
 }
 
-.new-game-button svg {
+.new-game-button svg,
+.gift-button svg {
   display: none;
   width: 23px;
   height: 23px;
@@ -272,6 +281,26 @@ a {
 }
 
 .new-game-button:active {
+  transform: translateY(1px);
+}
+
+.gift-button {
+  min-width: 0;
+  background: var(--coral);
+  border-color: var(--coral-dark);
+}
+
+.gift-button svg {
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+
+.gift-button:hover {
+  background: #f88871;
+}
+
+.gift-button:active {
   transform: translateY(1px);
 }
 
@@ -987,6 +1016,98 @@ a {
   text-align: center;
 }
 
+html.gift-is-open {
+  overflow: hidden;
+}
+
+.gift-dialog {
+  width: 100%;
+  max-width: none;
+  height: 100%;
+  height: 100dvh;
+  max-height: none;
+  margin: 0;
+  padding: 72px 12px;
+  border: 0;
+  background: transparent;
+  color: var(--paper-strong);
+  overflow: hidden;
+}
+
+.gift-dialog[open] {
+  display: grid;
+  place-content: center;
+  justify-items: center;
+}
+
+.gift-dialog::backdrop {
+  background: rgba(7, 25, 48, 0.46);
+}
+
+.gift-stage {
+  width: min(1100px, calc(100vw - 24px), calc((100svh - 144px) * 1.902));
+  aspect-ratio: 1902 / 1000;
+}
+
+#gift-canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.gift-source {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.gift-close,
+.gift-retry {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  min-height: 44px;
+  padding: 8px 16px;
+  border: 1px solid var(--paper);
+  border-radius: 7px;
+  background: var(--paper-strong);
+  color: var(--ink);
+  cursor: pointer;
+}
+
+.gift-close {
+  position: absolute;
+  top: max(16px, env(safe-area-inset-top));
+  right: max(16px, env(safe-area-inset-right));
+}
+
+.gift-close span:last-child {
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.gift-message {
+  position: absolute;
+  inset: auto 16px 20px;
+  text-align: center;
+}
+
+#gift-status {
+  margin: 0 auto 12px;
+  width: fit-content;
+  padding: 8px 16px;
+  border-radius: 7px;
+  background: var(--ink);
+}
+
+.gift-retry[hidden],
+#gift-status[hidden] {
+  display: none;
+}
+
 @keyframes spin {
   to {
     transform: rotate(360deg);
@@ -995,7 +1116,7 @@ a {
 
 @media (max-width: 1180px) {
   .app-header {
-    grid-template-columns: minmax(200px, 1fr) auto minmax(130px, 1fr);
+    grid-template-columns: minmax(170px, 1fr) auto auto;
     padding-inline: 26px;
   }
 
@@ -1009,12 +1130,20 @@ a {
   }
 
   .game-stats {
-    min-width: 370px;
-    gap: 18px;
+    min-width: 320px;
+    gap: 14px;
   }
 
   .new-game-button {
     min-width: 128px;
+  }
+
+  .header-actions {
+    gap: 8px;
+  }
+
+  .gift-button {
+    padding-inline: 12px;
   }
 
   .challenge-panel {
@@ -1090,6 +1219,14 @@ a {
     height: 1px;
     overflow: hidden;
     clip: rect(0, 0, 0, 0);
+  }
+
+  .gift-button {
+    min-height: 45px;
+  }
+
+  .gift-button svg {
+    display: none;
   }
 
   .region-bar {
@@ -1260,14 +1397,26 @@ a {
   }
 }
 
+@media (max-width: 600px) {
+  .game-stats {
+    display: none;
+  }
+
+  .app-header {
+    grid-template-columns: 1fr auto;
+  }
+
+  .mobile-stats {
+    display: block;
+    color: var(--ink-soft);
+    font-weight: 520;
+  }
+}
+
 @media (max-width: 560px) {
   .brand span {
     max-width: 122px;
     overflow: hidden;
-  }
-
-  .app-header {
-    grid-template-columns: auto 1fr auto;
   }
 
   .map-frame {
@@ -1312,6 +1461,8 @@ a {
 
   .app-header {
     grid-template-columns: 1fr auto;
+    gap: 8px;
+    padding-inline: 12px;
   }
 
   .mobile-stats {

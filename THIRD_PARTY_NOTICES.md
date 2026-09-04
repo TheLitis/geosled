@@ -68,6 +68,10 @@
 - Лицензия: SIL Open Font License 1.1.
 - Полный текст: [`licenses/ROBOTO-CONDENSED-OFL.txt`](./licenses/ROBOTO-CONDENSED-OFL.txt).
 
+## Пользовательский ролик
+
+`assets/video/gift.mp4` — предоставленный владельцем сайта файл `musordrop animation green-screen sound on.mp4`, включённый по его запросу. Лицензия MIT для кода сайта не распространяется на этот видеоролик; права на него остаются у соответствующих правообладателей.
+
 ## Сводка лицензий
 
 | Материал | Версия | Лицензия |

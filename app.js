@@ -106,6 +106,7 @@
       streak: 0,
       bestStreak: 0,
       selectedIso3: null,
+      selectionSource: null,
       capitalInput: "",
       attemptCount: 0,
       mapLocked: false,
@@ -292,6 +293,7 @@
 
   function resetRoundState() {
     state.selectedIso3 = null;
+    state.selectionSource = null;
     state.capitalInput = "";
     state.attemptCount = 0;
     state.mapLocked = false;
@@ -341,7 +343,7 @@
       target.name.ru.length > 22,
     );
     elements.capitalInput.value = state.capitalInput;
-    elements.countrySelect.value = state.selectedIso3 || "";
+    renderCountrySelectValue();
   }
 
   function renderStats() {
@@ -391,10 +393,10 @@
   }
 
   function renderCountrySelect() {
-    const currentValue = state.selectedIso3 || "";
     const fragment = document.createDocumentFragment();
     const emptyOption = document.createElement("option");
     emptyOption.value = "";
+    emptyOption.disabled = true;
     emptyOption.textContent = "Страна не выбрана";
     fragment.append(emptyOption);
 
@@ -406,7 +408,17 @@
     }
 
     elements.countrySelect.replaceChildren(fragment);
-    elements.countrySelect.value = currentValue;
+    renderCountrySelectValue();
+  }
+
+  function renderCountrySelectValue() {
+    // The list must not identify a country picked on the unlabelled map,
+    // including selections restored from older saved games.
+    const pickedFromList = state.selectionSource === "list";
+    elements.countrySelect.value = pickedFromList ? state.selectedIso3 || "" : "";
+    elements.countrySelect.options[0].textContent = state.selectedIso3 && !pickedFromList
+      ? "Страна выбрана на карте"
+      : "Страна не выбрана";
   }
 
   function setFeedback(tone, title, body) {
@@ -463,14 +475,15 @@
       : "Страна на карте пока не выбрана.";
   }
 
-  function selectCountry(iso3) {
+  function selectCountry(iso3, source = "map") {
     if (!ready || state.roundComplete || state.mapLocked || !countryByIso3.has(iso3)) return;
     const country = countryByIso3.get(iso3);
     if (state.regionId !== "all" && !country.regionIds.includes(state.regionId)) return;
 
     state.selectedIso3 = iso3;
+    state.selectionSource = source;
     state.mapErrorVisible = false;
-    elements.countrySelect.value = iso3;
+    renderCountrySelectValue();
     applyAllMapStyles();
     renderControls();
     renderSelectionStatus();
@@ -1066,7 +1079,7 @@
   });
 
   elements.countrySelect.addEventListener("change", (event) => {
-    if (event.target.value) selectCountry(event.target.value);
+    if (event.target.value) selectCountry(event.target.value, "list");
   });
 
   elements.skipButton.addEventListener("click", skipRound);

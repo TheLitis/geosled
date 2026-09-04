@@ -58,12 +58,20 @@
           </div>
         </div>
 
-        <button class="new-game-button" id="new-game-button" type="button" disabled>
-          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-            <path d="M20 7v5h-5M19.1 15a8 8 0 1 1-.6-7.8L20 9" />
-          </svg>
-          <span>Новая игра</span>
-        </button>
+        <div class="header-actions">
+          <button class="gift-button" id="gift-button" type="button" aria-haspopup="dialog" aria-controls="gift-dialog">
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path d="M3 8h18v4H3zM5 12v9h14v-9M12 8v13M12 8H7.5A2.5 2.5 0 1 1 10 5.5L12 8Zm0 0h4.5A2.5 2.5 0 1 0 14 5.5L12 8Z" />
+            </svg>
+            <span>Подарок</span>
+          </button>
+          <button class="new-game-button" id="new-game-button" type="button" disabled>
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path d="M20 7v5h-5M19.1 15a8 8 0 1 1-.6-7.8L20 9" />
+            </svg>
+            <span>Новая игра</span>
+          </button>
+        </div>
       </header>
 
       <div class="mobile-round" aria-label="Прогресс текущей игры">
@@ -240,6 +248,22 @@
       </div>
     </dialog>
 
+    <dialog class="gift-dialog" id="gift-dialog" aria-labelledby="gift-title" aria-describedby="gift-description">
+      <h2 class="visually-hidden" id="gift-title">Подарок</h2>
+      <p class="visually-hidden" id="gift-description">Короткая анимация со звуком. Чтобы вернуться к игре, нажмите «Закрыть» или Escape.</p>
+      <button class="gift-close" id="gift-close" type="button" autofocus>
+        <span>Закрыть</span><span aria-hidden="true">×</span>
+      </button>
+      <div class="gift-stage">
+        <canvas id="gift-canvas" width="1280" height="673" role="img" aria-label="Подарочная анимация: вращение карточек с игровыми предметами"></canvas>
+        <video class="gift-source" id="gift-video" src="./assets/video/gift.mp4" preload="none" playsinline disablepictureinpicture aria-hidden="true" tabindex="-1"></video>
+      </div>
+      <div class="gift-message">
+        <p id="gift-status" role="status" aria-live="polite">Открываем подарок…</p>
+        <button class="gift-retry" id="gift-retry" type="button" hidden>Попробовать ещё раз</button>
+      </div>
+    </dialog>
+
     <noscript>
       <div class="noscript-message">
         Для игры нужен JavaScript. Включите его в настройках браузера и обновите страницу.
@@ -249,5 +273,6 @@
     <script src="./vendor/leaflet/leaflet.js"></script>
     <script src="./vendor/topojson/topojson-client.min.js"></script>
     <script src="./app.js"></script>
+    <script src="./gift.js"></script>
   </body>
 </html>
